@@ -1,0 +1,501 @@
+sample id,Education level,SNP_1,SNP_2,SNP_3,SNP_4,SNP_5
+1,bachelor,2,0,1,2,2
+2,phD,1,0,1,1,0
+3,high school,0,0,2,2,2
+4,primary,0,1,1,1,0
+5,phD,1,0,0,0,2
+6,high school,2,1,1,0,1
+7,primary,1,1,2,2,0
+8,bachelor,0,0,2,0,1
+9,phD,0,2,1,2,2
+10,master,0,1,2,2,1
+11,bachelor,0,2,2,0,1
+12,high school,1,2,0,1,2
+13,bachelor,1,1,2,0,2
+14,high school,0,0,1,2,0
+15,bachelor,2,0,0,2,2
+16,high school,1,0,2,0,0
+17,bachelor,2,2,0,2,0
+18,phD,2,0,0,0,2
+19,phD,2,2,1,1,1
+20,bachelor,0,2,0,2,1
+21,primary,2,1,1,0,0
+22,bachelor,1,2,1,2,1
+23,bachelor,2,2,1,0,0
+24,phD,2,1,0,1,0
+25,phD,0,2,0,1,1
+26,primary,0,1,0,0,2
+27,high school,1,1,1,1,2
+28,primary,1,2,0,2,0
+29,master,2,2,2,2,2
+30,phD,2,2,1,2,2
+31,primary,0,2,2,2,1
+32,bachelor,0,0,1,1,2
+33,high school,2,0,1,2,0
+34,high school,1,2,1,0,1
+35,primary,2,2,1,2,0
+36,bachelor,1,0,1,1,0
+37,bachelor,0,0,0,0,2
+38,master,1,1,2,2,2
+39,bachelor,0,0,0,2,2
+40,phD,0,1,1,0,2
+41,primary,1,1,1,0,2
+42,primary,1,1,2,1,1
+43,primary,0,1,1,2,1
+44,phD,2,1,2,1,2
+45,bachelor,1,2,1,2,2
+46,master,2,2,1,1,2
+47,bachelor,2,0,2,0,0
+48,primary,1,2,1,2,2
+49,high school,1,2,0,1,2
+50,bachelor,0,0,1,1,2
+51,primary,2,0,1,1,1
+52,primary,0,1,2,0,1
+53,bachelor,0,2,0,2,0
+54,phD,0,1,1,2,0
+55,phD,2,1,2,1,0
+56,phD,1,2,0,2,1
+57,primary,2,2,1,2,2
+58,phD,1,0,2,0,0
+59,master,1,2,2,0,0
+60,master,2,1,1,1,1
+61,master,0,2,1,0,2
+62,master,0,0,2,1,0
+63,high school,1,1,1,2,1
+64,high school,0,1,1,1,1
+65,primary,0,1,1,1,0
+66,high school,0,1,0,1,1
+67,phD,0,0,2,1,2
+68,primary,0,0,1,0,2
+69,high school,1,2,0,0,1
+70,high school,0,2,2,1,2
+71,bachelor,1,1,1,0,0
+72,high school,2,2,0,0,0
+73,master,2,0,1,1,0
+74,primary,0,2,2,0,1
+75,master,1,2,1,2,1
+76,primary,1,2,2,1,2
+77,high school,1,0,2,0,0
+78,master,2,2,1,0,2
+79,bachelor,0,1,1,1,2
+80,primary,1,2,2,1,2
+81,primary,0,0,2,0,1
+82,phD,1,1,0,0,0
+83,phD,1,1,2,1,2
+84,phD,0,2,0,2,2
+85,high school,1,0,1,0,1
+86,master,0,1,1,0,2
+87,master,2,0,1,2,1
+88,master,2,2,2,2,0
+89,primary,2,1,2,1,2
+90,phD,2,1,1,0,1
+91,high school,1,0,0,0,1
+92,high school,0,2,0,1,1
+93,high school,2,1,2,2,2
+94,primary,2,0,1,0,2
+95,master,2,1,2,1,1
+96,primary,1,1,2,1,0
+97,primary,1,1,0,0,1
+98,high school,2,2,0,2,2
+99,master,2,1,2,1,0
+100,high school,1,2,1,1,1
+101,high school,2,1,2,2,1
+102,master,2,0,0,1,1
+103,bachelor,1,2,1,0,0
+104,high school,1,1,1,1,1
+105,master,2,1,1,0,1
+106,bachelor,1,2,0,0,1
+107,bachelor,1,2,0,0,2
+108,master,2,1,1,0,1
+109,master,2,2,2,1,1
+110,phD,1,1,0,0,0
+111,high school,2,0,1,2,0
+112,bachelor,1,0,0,1,1
+113,high school,2,2,1,1,2
+114,master,2,0,0,2,1
+115,master,2,1,1,2,2
+116,high school,1,1,0,2,1
+117,master,0,1,0,1,1
+118,master,0,1,0,2,0
+119,bachelor,1,1,2,0,0
+120,master,2,0,2,1,0
+121,master,0,1,1,2,1
+122,bachelor,2,0,1,1,2
+123,master,0,1,2,1,0
+124,phD,2,0,1,2,1
+125,high school,2,2,0,2,2
+126,phD,1,1,1,0,2
+127,phD,1,2,1,1,2
+128,master,2,0,2,1,2
+129,phD,0,0,0,1,0
+130,primary,0,0,0,0,0
+131,master,0,1,1,0,2
+132,high school,2,0,0,2,1
+133,primary,0,2,0,2,2
+134,master,1,1,1,0,1
+135,high school,2,0,0,1,2
+136,bachelor,0,1,2,1,0
+137,primary,1,2,0,2,1
+138,high school,0,1,0,0,2
+139,high school,0,0,2,1,2
+140,bachelor,2,0,2,1,0
+141,high school,2,1,2,2,0
+142,primary,1,1,2,2,1
+143,primary,0,1,1,1,2
+144,bachelor,1,2,1,2,2
+145,bachelor,2,2,1,2,2
+146,primary,0,1,2,2,1
+147,master,1,1,0,1,0
+148,primary,1,1,0,0,2
+149,master,2,1,0,1,2
+150,bachelor,1,1,0,0,1
+151,master,2,2,1,1,0
+152,master,1,0,0,1,2
+153,phD,0,2,0,0,1
+154,high school,1,1,1,2,0
+155,bachelor,2,0,2,0,2
+156,primary,0,2,0,1,1
+157,primary,1,0,0,1,1
+158,high school,2,0,1,0,2
+159,master,1,1,1,2,1
+160,high school,1,2,0,0,1
+161,phD,1,0,1,1,0
+162,primary,1,2,0,2,2
+163,phD,2,1,2,2,0
+164,bachelor,0,2,1,0,2
+165,phD,1,2,1,0,0
+166,master,1,2,1,1,0
+167,phD,0,0,1,1,0
+168,master,2,1,0,1,2
+169,bachelor,1,2,1,0,1
+170,phD,2,1,1,1,2
+171,primary,0,2,0,0,1
+172,high school,0,1,0,1,2
+173,primary,1,2,2,0,2
+174,high school,0,0,1,0,2
+175,master,2,0,0,0,2
+176,bachelor,0,1,2,2,1
+177,primary,0,0,0,2,2
+178,primary,1,0,1,1,0
+179,primary,2,0,0,1,0
+180,high school,0,2,1,0,0
+181,phD,0,2,2,2,2
+182,bachelor,0,0,0,1,2
+183,high school,2,0,0,1,0
+184,phD,0,1,1,0,2
+185,phD,0,2,0,0,2
+186,master,1,0,0,0,2
+187,bachelor,1,0,1,0,2
+188,bachelor,0,1,2,1,0
+189,bachelor,0,2,1,1,1
+190,bachelor,1,1,0,1,1
+191,high school,0,1,0,0,2
+192,high school,0,1,2,1,2
+193,master,1,1,1,2,2
+194,master,0,2,0,0,0
+195,phD,1,0,2,2,2
+196,master,2,0,2,1,0
+197,primary,2,1,1,2,1
+198,master,0,2,2,1,2
+199,phD,2,0,1,1,1
+200,bachelor,2,0,1,2,2
+201,primary,0,2,2,1,0
+202,phD,1,1,1,0,1
+203,high school,0,0,0,2,0
+204,bachelor,1,2,2,0,0
+205,high school,2,0,1,2,0
+206,phD,0,2,2,1,0
+207,phD,2,1,0,0,2
+208,bachelor,2,1,0,0,1
+209,master,0,2,2,1,0
+210,master,1,0,2,2,1
+211,high school,2,2,1,0,0
+212,master,1,2,2,0,0
+213,primary,2,1,1,0,2
+214,master,0,2,1,0,2
+215,primary,0,0,2,1,0
+216,high school,2,1,2,0,2
+217,bachelor,0,1,2,1,2
+218,high school,0,1,1,2,0
+219,primary,1,1,0,1,2
+220,bachelor,2,0,0,1,0
+221,master,0,1,0,2,2
+222,master,1,1,1,0,0
+223,phD,0,1,1,1,0
+224,master,1,2,0,1,2
+225,high school,1,0,2,0,2
+226,master,1,0,0,1,2
+227,primary,2,0,2,2,2
+228,high school,0,2,2,0,2
+229,bachelor,0,2,2,1,0
+230,master,1,2,0,2,0
+231,bachelor,2,0,1,1,2
+232,high school,1,2,2,0,1
+233,phD,2,0,1,1,1
+234,primary,2,2,2,2,1
+235,phD,2,1,2,0,2
+236,primary,1,2,0,2,0
+237,high school,1,1,2,1,0
+238,phD,1,2,2,0,2
+239,primary,2,2,2,0,1
+240,primary,0,1,0,1,1
+241,high school,2,1,1,1,1
+242,bachelor,2,0,0,2,0
+243,phD,2,2,1,2,2
+244,high school,2,1,2,2,0
+245,high school,2,1,1,1,1
+246,master,2,1,2,1,0
+247,bachelor,2,1,0,0,0
+248,bachelor,1,0,1,0,1
+249,primary,0,0,0,1,2
+250,bachelor,0,2,0,2,0
+251,phD,0,1,1,1,1
+252,phD,1,2,1,1,2
+253,primary,2,1,2,1,2
+254,master,2,2,1,2,2
+255,phD,1,0,2,0,2
+256,primary,1,1,1,0,1
+257,phD,0,0,0,0,0
+258,bachelor,2,2,0,2,0
+259,high school,0,1,0,1,2
+260,master,2,1,2,0,2
+261,high school,0,2,2,0,0
+262,master,0,1,1,0,0
+263,primary,2,2,2,0,2
+264,primary,2,1,1,1,1
+265,phD,2,0,0,1,2
+266,phD,2,1,0,2,2
+267,phD,2,0,1,0,1
+268,bachelor,0,0,0,2,2
+269,master,0,2,0,0,1
+270,primary,1,2,0,2,1
+271,bachelor,0,1,0,0,0
+272,bachelor,1,2,1,1,0
+273,master,2,1,1,1,0
+274,master,1,2,2,0,1
+275,primary,0,2,2,0,0
+276,primary,0,0,2,0,1
+277,primary,0,2,0,2,0
+278,bachelor,1,2,0,0,0
+279,master,1,2,1,1,0
+280,bachelor,1,0,2,1,0
+281,high school,1,1,0,0,0
+282,primary,2,1,0,0,1
+283,master,2,1,0,2,0
+284,bachelor,0,1,0,2,1
+285,master,0,2,1,0,2
+286,high school,0,1,1,1,2
+287,high school,2,2,2,0,0
+288,phD,1,1,1,2,1
+289,phD,0,2,2,0,2
+290,master,1,0,1,2,2
+291,master,2,0,0,0,1
+292,bachelor,0,1,1,1,2
+293,bachelor,2,0,1,2,0
+294,primary,2,2,2,2,1
+295,phD,1,0,1,2,0
+296,high school,1,2,2,1,1
+297,high school,0,0,0,0,2
+298,high school,0,0,2,1,2
+299,primary,1,2,2,2,1
+300,high school,0,0,1,0,2
+301,primary,0,1,0,2,0
+302,phD,1,1,2,2,1
+303,phD,1,1,2,0,0
+304,high school,0,0,1,1,0
+305,master,2,0,1,1,0
+306,master,1,2,0,1,1
+307,bachelor,1,0,2,1,2
+308,high school,0,0,2,2,2
+309,primary,0,0,0,0,2
+310,master,2,2,2,0,2
+311,high school,1,0,1,0,1
+312,primary,2,0,2,1,0
+313,bachelor,1,1,1,1,2
+314,primary,0,0,2,0,0
+315,master,1,1,2,0,0
+316,phD,1,2,2,1,0
+317,bachelor,0,2,2,0,0
+318,master,2,0,2,0,2
+319,master,2,1,0,0,0
+320,phD,1,1,2,2,2
+321,phD,1,0,1,0,0
+322,bachelor,2,1,0,1,1
+323,high school,0,1,2,1,0
+324,bachelor,2,0,1,1,0
+325,high school,0,0,1,1,0
+326,bachelor,1,0,0,2,0
+327,master,1,1,0,2,0
+328,bachelor,1,0,0,2,2
+329,phD,0,0,0,1,1
+330,high school,2,0,1,1,1
+331,phD,2,0,0,0,0
+332,master,2,0,0,2,0
+333,high school,0,2,2,2,1
+334,primary,0,0,1,1,2
+335,phD,0,1,1,0,0
+336,bachelor,0,1,1,0,1
+337,phD,1,2,2,0,0
+338,phD,0,2,1,2,0
+339,phD,1,2,0,0,1
+340,high school,1,1,1,1,1
+341,master,2,1,1,2,2
+342,primary,2,2,1,1,1
+343,primary,0,1,2,2,2
+344,bachelor,0,0,2,1,2
+345,phD,0,0,2,0,2
+346,primary,2,0,0,1,2
+347,high school,2,2,2,1,2
+348,bachelor,2,1,0,2,0
+349,bachelor,0,2,1,0,1
+350,bachelor,2,1,2,1,0
+351,bachelor,2,0,1,1,1
+352,high school,2,1,0,2,2
+353,phD,2,0,1,1,2
+354,master,0,1,1,0,1
+355,bachelor,0,1,2,2,0
+356,phD,0,1,0,2,0
+357,primary,2,2,0,0,1
+358,phD,2,1,1,1,0
+359,master,0,1,2,1,0
+360,phD,2,1,0,0,0
+361,bachelor,2,1,2,0,0
+362,phD,2,1,0,2,2
+363,master,1,0,0,2,1
+364,bachelor,2,2,2,2,1
+365,primary,1,0,0,2,1
+366,primary,2,0,1,2,2
+367,master,1,2,2,1,2
+368,bachelor,0,2,2,2,0
+369,primary,0,1,2,2,2
+370,high school,2,2,1,2,1
+371,master,0,2,2,1,2
+372,high school,2,0,0,0,0
+373,master,0,1,1,0,1
+374,master,2,2,2,2,1
+375,phD,2,1,1,0,0
+376,primary,2,1,0,1,0
+377,master,0,0,2,0,0
+378,bachelor,0,0,1,2,0
+379,primary,1,1,2,0,2
+380,high school,1,2,0,1,2
+381,phD,0,1,0,1,0
+382,master,1,2,2,1,2
+383,primary,2,0,1,1,1
+384,master,1,0,2,0,2
+385,phD,0,1,2,0,0
+386,high school,2,0,2,0,2
+387,phD,0,1,1,2,2
+388,master,2,2,2,0,0
+389,master,2,2,0,1,2
+390,master,2,0,2,2,2
+391,high school,0,1,2,1,1
+392,primary,0,1,0,2,2
+393,master,1,0,0,0,2
+394,bachelor,1,2,2,0,1
+395,bachelor,1,0,1,0,2
+396,master,1,0,2,1,1
+397,phD,2,1,0,1,2
+398,high school,0,2,1,0,0
+399,phD,0,1,0,0,0
+400,phD,2,2,2,0,1
+401,primary,1,0,0,0,1
+402,phD,0,0,2,1,1
+403,bachelor,2,2,2,1,0
+404,master,1,2,0,2,0
+405,high school,0,0,1,0,0
+406,phD,0,1,0,0,0
+407,bachelor,1,1,2,1,2
+408,master,2,2,2,0,0
+409,bachelor,1,1,2,0,1
+410,bachelor,0,2,1,0,0
+411,master,0,1,0,0,1
+412,master,2,0,2,1,2
+413,phD,2,2,0,1,1
+414,primary,2,0,0,2,2
+415,primary,2,0,1,1,0
+416,bachelor,1,1,2,0,2
+417,phD,2,1,2,0,1
+418,master,1,0,0,1,0
+419,phD,0,0,2,0,2
+420,phD,0,0,1,0,2
+421,bachelor,2,1,2,1,2
+422,bachelor,2,0,0,0,2
+423,master,2,0,1,2,1
+424,primary,0,2,0,1,1
+425,master,2,2,0,0,1
+426,master,0,1,2,1,1
+427,primary,2,1,2,2,1
+428,primary,1,2,1,0,0
+429,phD,0,0,1,1,0
+430,bachelor,0,0,1,2,0
+431,primary,2,2,2,2,1
+432,primary,2,1,2,0,1
+433,phD,0,0,0,2,0
+434,bachelor,0,0,2,2,0
+435,bachelor,2,1,1,2,1
+436,phD,2,0,0,2,0
+437,primary,1,2,0,0,0
+438,high school,0,1,1,2,2
+439,phD,2,2,2,1,2
+440,bachelor,2,0,1,1,1
+441,phD,0,2,0,1,0
+442,high school,0,1,0,2,1
+443,high school,0,1,0,1,2
+444,primary,1,1,0,2,0
+445,primary,2,1,1,0,2
+446,high school,2,2,2,0,0
+447,master,1,2,0,2,2
+448,high school,1,0,2,1,1
+449,high school,0,0,0,2,1
+450,high school,0,0,1,1,2
+451,primary,0,1,2,2,0
+452,high school,2,1,1,1,1
+453,high school,0,1,0,1,1
+454,master,2,1,2,1,0
+455,primary,2,2,0,0,1
+456,master,2,1,2,1,0
+457,master,2,0,0,1,2
+458,master,1,2,2,0,0
+459,phD,1,2,0,1,1
+460,master,0,2,0,0,2
+461,phD,2,2,1,0,1
+462,high school,0,2,2,2,0
+463,primary,2,1,0,0,2
+464,high school,0,0,0,0,2
+465,bachelor,2,1,0,1,0
+466,high school,0,2,1,1,2
+467,master,2,1,2,1,2
+468,primary,0,1,0,1,2
+469,high school,0,2,2,2,0
+470,primary,0,2,2,1,1
+471,master,0,1,1,0,2
+472,bachelor,1,2,2,2,2
+473,bachelor,1,2,0,0,1
+474,phD,2,1,0,1,1
+475,high school,2,2,0,1,1
+476,phD,0,0,2,1,1
+477,phD,1,0,2,1,2
+478,phD,2,0,2,2,2
+479,primary,2,2,0,2,0
+480,bachelor,1,0,1,1,1
+481,primary,2,0,0,0,2
+482,primary,0,1,2,2,0
+483,phD,0,1,0,0,1
+484,master,2,2,0,2,2
+485,primary,1,0,2,2,1
+486,high school,0,0,2,1,1
+487,master,0,0,2,2,0
+488,bachelor,2,2,2,2,1
+489,phD,2,1,2,1,2
+490,bachelor,1,2,1,1,0
+491,high school,1,2,2,2,2
+492,phD,0,0,1,2,2
+493,high school,0,2,0,2,0
+494,master,2,2,0,0,1
+495,master,0,1,0,0,2
+496,high school,2,1,0,1,1
+497,primary,2,2,0,2,1
+498,phD,2,1,1,0,1
+499,bachelor,1,0,0,0,2
+500,phD,0,0,0,1,1
