@@ -1,0 +1,48 @@
+---
+title: "CDM Sim"
+output: html_notebook
+---
+
+
+
+```{r}
+CDM <- read.csv("Final CDMSim data.csv")
+
+```
+
+```{r}
+lapply(CDM,class)
+```
+
+```{r}
+CDM$gender <- factor(CDM$gender)
+CDM$ethnicity <- factor(CDM$ethnicity)
+CDM$Country <- factor(CDM$Country)
+CDM$City <- factor(CDM$City)
+CDM$Education.level <- factor(CDM$Education.level)
+CDM$SNP_1 <- factor(CDM$SNP_1)
+CDM$SNP_2 <- factor(CDM$SNP_2)
+CDM$SNP_3 <- factor(CDM$SNP_3)
+CDM$SNP_4 <- factor(CDM$SNP_4)
+CDM$SNP_5 <- factor(CDM$SNP_5)
+```
+
+```{r}
+hist(CDM$height,xlab="Height (cm)",main ="Height histogram")
+```
+```{r}
+
+```
+
+1 = female
+0 = male
+
+```{r}
+
+```
+
+```{r}
+describeBy(CDM$S4br1na,group=CDM$case_status)
+
+```
+

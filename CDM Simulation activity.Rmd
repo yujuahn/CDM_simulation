@@ -1,0 +1,74 @@
+---
+title: "CDM simulation activity"
+output: html_notebook
+---
+
+Names, country, city, gender 
+
+```{r}
+
+library(randomNames)
+```
+```{r}
+Sample_ID <- c(1:500)
+
+Full_Name <- randomNames(500,name.order="first.last",return.complete.data=T)
+Data <- data.frame(Sample_ID,Full_Name)
+```
+
+
+```{r}
+head(Data)
+```
+
+
+
+```{r}
+Data$ethnicity[Data$ethnicity ==1] <- "American Indian"
+Data$ethnicity[Data$ethnicity ==2] <- "Asian"
+Data$ethnicity[Data$ethnicity ==3] <- "Black"
+Data$ethnicity[Data$ethnicity ==4] <- "Hispanic"
+Data$ethnicity[Data$ethnicity ==5] <- "White"
+Data$ethnicity[Data$ethnicity ==6] <- "Middle Eastern"
+
+```
+
+```{r}
+Data$ethnicity <- factor(Data$ethnicity)
+Data$gender <- factor(Data$gender)
+```
+
+
+
+
+
+```{r}
+Random_CandC <- Countries[sample(nrow(Countries),500,replace=T),]
+```
+
+```{r}
+# df = dataframe
+# old.var.name = The name you don't like anymore
+# new.var.name = The name you want to get
+
+names(Random_CandC)[names(Random_CandC) == 'Capital'] <- 'City'
+```
+
+
+```{r}
+CDM_Data2 <- cbind(Data2,Random_CandC)
+```
+
+```{r}
+CDM_Data2$Country <- factor(CDM_Data2$Country)
+CDM_Data2$City <- factor(CDM_Data2$City)
+```
+
+```{r}
+plot(CDM_Data2$Country)
+```
+
+```{r}
+write.csv(CDM_Data2,file="/Users/james/Documents/James_data.csv",row.names=F)
+```
+
